@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>PROYECTO</title>
+    <link rel="icon" type="image/jpg" href="SQL/proyecto/scene.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+      <link rel="stylesheet" type="text/css" href="css/estiloinformacion_proyecto.css">
+  </head>
+
+  <body>
+    <header>
+
+      <h1 id="titulo1">Proyecto</h1>
+      <a align="center" href="#">JAVA</a>
+      <a align="center" href="#">scene builder</a>
+      <a align="center" href="#">jpicker</a>
+        </header>
+      <img src="SQL/proyecto/identidades.png" id="img">
+
+      <div id="informacion_pro">
+        <p align="justify" >Se realizara una aplicación en java usando el IDE eclipse y nuestro driver sql para poder entrelazar la aplcación
+          en cuestión y nuestra base de datos. para la realización de nuestra interfaz utilizaremos scene builder y para la declaración de tablas usamos SQL
+          y workbench como gestor.
+      </div>
+
+     </p>
+     <div id="informacion">
+       <p>Lo primero a analizar es nuestro SQL, en la imagen de abajo podemos ver que contiene 4 tablas o identidades
+       estas tablas son, FACTURAS, PRODUCTOS, CLIENTES, FACTURAS_PRODUCTOS, ¿ como estan conectadas ? </p>
+     </div>
+
+
+
+
+     <div id="informacion2">
+
+    <p align="justify">La relación que tienen estas identidades son las siguiente: </p>
+     <li align="justify">PRODUCTOS a FACTURAS_PRODUCTOS: la relacón entre estos dos es de 1 a muchos, es decir para 1 productos puede existr una o mas facturas</li>
+     <li align="justify">FACTURAS_PRODUCTOS a FACTURAS: estas dos identidades estan relaciionadas debido a que las facturas contienen la información de los clientes y por otra parte
+     FACTURAS_PRODUCTOS pasara los datos y cantidades de los productos adquridos, su relación es de muchos a 1 es decir una factura puede contener factura de cliente puede tener varias facturas de productos</li>
+     <li align="justify">CLIENTES a FACTURAS: por ultimo su relación entre estas identidades son 1 cliente puede tener varias facturas </li>
+     <p>A continuación pondremos nuestro SQL utilizado para construir nuestra aplicación, solamente da click sobre la imagen para que te redirija a los archivos</p>
+     <article>
+       <div class="row">
+        <div class="col-xs-6 col-md-4">
+
+         <img src="SQL/proyecto/sql.PNG" width="200" height="100" alt="Logotipo">
+         <div class="capa">
+             <a target="_blank" href="https://drive.google.com/drive/folders/1HGGJFkjnFj-UaoY_9smg120lLp7L2DyT?usp=sharing">SQL</a>
+
+         </div>
+     </article>
+     </div>
+
+
+
+
+
+  </body>
+
+</html>
